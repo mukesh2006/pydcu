@@ -26,4 +26,5 @@ im = plt.imshow(camera.data, cmap=cm.gray, aspect='equal')
 camera.StopLiveVideo()
 camera.FreeImageMem()
 camera.ExitCamera()
-plt.show()}}}
+plt.show()
+}}}
