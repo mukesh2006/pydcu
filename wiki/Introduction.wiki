@@ -7,7 +7,7 @@ Pydcu is a python wrapper for Thorlabs DCU 200 camera series dll.
 = Basic Usage =
 Code sample using matplotlib and numpy libraries.
 
-
+{{{
 import uc480
 import numpy as np
 import matplotlib.cm as cm
@@ -26,4 +26,4 @@ im = plt.imshow(camera.data, cmap=cm.gray, aspect='equal')
 camera.StopLiveVideo()
 camera.FreeImageMem()
 camera.ExitCamera()
-plt.show()
+plt.show()}}}
